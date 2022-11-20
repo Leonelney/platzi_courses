@@ -1,0 +1,28 @@
+# los operadores de comparación validan dos valores y regresa un valor booleano.
+# el primer comparador es el mayor que ("<").
+print(7 > 3)
+print(3 > 7)
+print(7 > 7)
+# el segundo comparador es el manor que ("<")
+print(5 < 6)
+print(6 < 5)
+print(5 < 5)
+# el tercer comparador es el mayor igual que (">=")
+print(2 >= 1)
+print(2 >= 3)
+print(2 >= 2)
+# el cuarto comparador es el menor igual que ("<=")
+print(1 <= 2)
+print(2 <= 1)
+print(2 <= 2)
+# el quinto comparador es el igual que ("==")
+print(6 == 6)
+print(5 == 2)
+# el sexto compardaor es el diferente que ("!=")
+print(6 != 10)
+print(6 != 6)
+
+# no solo se puede usar números para hacer comparaciones, tambien es puede usar strings.
+print("apple" == 'apple')
+print("Apple" == 'apple')
+print("1" == 1)
