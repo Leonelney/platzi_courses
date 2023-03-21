@@ -23,5 +23,5 @@ print(8 / 2)
 Las triple comillas te permite hacer comentarios en varias líneas
 para así no utilizar muchas almohadillas o hashtags para hacer
 comentarios. Por si te lo preguntas los comentarios con hashtag o
-triple comillas son omitidos por el prograna a la hora de ejecutarse.
+triple comillas son omitidos por el programa a la hora de ejecutarse.
 '''
