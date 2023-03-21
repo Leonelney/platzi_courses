@@ -1,4 +1,4 @@
-# podemos tener dos variables con tipo de dato string.
+# podemos tener dos variables con un tipo de dato string.
 name = 'Leonel'
 last_name = 'Olivares'
 print(name)
@@ -12,7 +12,7 @@ full_name = name + " " + last_name
 print(full_name)
 
 # cuando usamos apostrofes o necesitamos utilizar comillas simples dentro de un string
-# como algo propio del texto entonces debemos usar su contra parte las comillas dobles
+# como algo propio del texto entonces debemos usar su contra parte, las comillas dobles,
 # para crear el string, así también de manera inversa al querer usar las comillas dobles
 # dentro del texto.
 print("I'm Leonel")

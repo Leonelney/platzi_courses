@@ -6,7 +6,7 @@ print('my_name =>', my_name)
 # almacena nuestra variable. En este caso nos regresa 'str' el cual hace referencia al
 # tipo de dato string.
 print(type(my_name))
-# el sigueinte tipo de datos es el integer o int, los cuales son números enteros.
+# el siguiente tipo de datos es el integer o int, los cuales son números enteros.
 my_age = 24
 print("my_age =>", my_age)
 print(type(my_age))

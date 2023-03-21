@@ -6,7 +6,7 @@ lives = "3"     # vidas en un videojuego
 print(type(lives))
 lives = 3
 print(type(lives))
-# también no soloe xisten los números enteros (int) sino que existen los números
+# también no solo existen los números enteros (int), sino que existen los números
 # flotantes (float) los cuales interpretan a los números con punto decimal.
 temperatura = 12.25
 print(type(temperatura))
@@ -19,23 +19,23 @@ print(lives)
 lives = lives + 2
 print(lives)
 # hay una forma abreviada de hacer esta operación, esto indica que se va a utilizar el 
-# mismo valor de la variable y se le va a hacer una opreación y se almacenará en la misma
+# mismo valor de la variable y se le va a hacer una operación y se almacenará en la misma
 # variable.
-lives += 2  #suma
+lives += 2  # suma
 print(lives)
-lives -= 2  #resta
+lives -= 2  # resta
 print(lives)
-lives *= 2  #multiplicación
+lives *= 2  # multiplicación
 print(lives)
-lives /= 2  #división
+lives /= 2  # división
 print(lives)
-lives **= 2  #exponenciación
+lives **= 2  # exponenciación
 print(lives)
-lives %= 2  #residuo
+lives %= 2  # residuo
 print(lives)
 
 # los flotantes pueden ser muy grandes o contener muchos decimales, lo que hace Python es escribir
-# dichos números en forma cientifica.
+# dichos números en notación cientifica.
 number = 450000000000000000000000000.1
 print(number)
 number = 0.000000000000000000000000001
