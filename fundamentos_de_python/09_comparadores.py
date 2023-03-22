@@ -18,11 +18,11 @@ print(2 <= 2)
 # el quinto comparador es el igual que ("==")
 print(6 == 6)
 print(5 == 2)
-# el sexto compardaor es el diferente que ("!=")
+# el sexto comparador es el diferente que ("!=")
 print(6 != 10)
 print(6 != 6)
 
-# no solo se puede usar números para hacer comparaciones, tambien es puede usar strings.
+# no solo se puede usar números para hacer comparaciones, también es puede usar strings.
 print("apple" == 'apple')
 print("Apple" == 'apple')
 print("1" == 1)

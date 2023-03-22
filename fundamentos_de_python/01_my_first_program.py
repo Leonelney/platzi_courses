@@ -3,20 +3,20 @@
 # print() la cual nos permite imprimir texto, el cual debe
 # ser escrito entre comillas dobles o comillas simples.
 
-# print() puede recibir varios parametros, pero para iniciar
+# print() puede recibir varios parámetros, pero para iniciar
 # solo enviaremos lo que queremos imprimir en consola.
 print("Hola mundo de nuevo")
 print("Soy yo de nuevo, Leonel y tengo 24 años.")
 
 # no solo imprime texto, si no que también puede imprimir
-# el resultado de alguna opración aritmetica.
+# el resultado de alguna operación aritmética.
 print(12 + 5)
 print(10 - 5)
 print(2 * 3)
-# Notese que el resultado de la división nos regresa un valor
+# Nótese que el resultado de la división nos regresa un valor
 # flotante o mejor conocido como decimal, esto es importante en
 # un futuro cuando utilices valores estrictamente enteros y 
-# tengas que converitir un número decimal a entero o viceversa.
+# tengas que convertir un número decimal a entero o viceversa.
 print(8 / 2)
 
 '''

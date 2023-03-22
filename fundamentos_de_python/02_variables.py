@@ -17,7 +17,7 @@ my_name = "Santiago"
 # poder crear un mensaje más detallado de la impresión y usando
 # variables.
 print("El nuevo nombre es", my_name)
-# volveremos a cambiar el valor de la varibale my_name, pero esta
+# volveremos a cambiar el valor de la variable my_name, pero esta
 # vez vamos a recibir información del usuario, es decir vamos a
 # recibir un nombre del usuarios a través de la terminal y lo
 # guardaremos en la variable my_name.
@@ -27,6 +27,6 @@ print("El nuevo nombre es", my_name)
 # como indicaciones de lo que el usuario debería introducir. 
 my_name = input("¿Cuál es tu nombre?: ")
 print("Usando input cambie el nombre a", my_name)
-# tambien hay que cambiar la edad, no?
+# también hay que cambiar la edad, no?
 my_age = input("¿Cuál es tu edad?: ")
 print("Usando input cambie la edad a", my_age)

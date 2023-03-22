@@ -20,7 +20,7 @@ print("False or False \t=>", False or False)
 print("False or True \t=>", False or True)
 print("True or False \t=>", True or False)
 print("True or True \t=>", True or True)
-# imagina que el True es igual a 1 y False es igual a 0, and actua como una multiplicación,
+# imagina que el True es igual a 1 y False es igual a 0, and actúa como una multiplicación,
 # solo da True cuando multiplicas 1 * 1 por que eso regresa uno y cuando se multiplica por 
 # 0 siempre dará 0. Para el or puedes imaginarlo como una suma, solo si sumas 0 + 0 siempre
 # te dará 0, o sea False. 

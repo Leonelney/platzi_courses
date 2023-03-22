@@ -11,14 +11,14 @@ my_age = 24
 print("my_age =>", my_age)
 print(type(my_age))
 # el siguiente tipo de dato son los booleanos, estos se caracterizan por solo tener 2
-# valores True o False. Son muy utiles para las condiciones.
+# valores True o False. Son muy útiles para las condiciones.
 is_single = True
 print("is_single =>", is_single)
 print(type(is_single))
 is_single = False
 print("is_single =>", is_single)
 print(type(is_single))
-# qué pasa cuando solicitamos datos numericos utilizando input()??
+# qué pasa cuando solicitamos datos numéricos utilizando input()??
 # lo que regresa siempre será un string aunque se haya pasado un número.
 my_age = input('¿Cuál es tu edad?: ')
 print('my_age =>', my_age)

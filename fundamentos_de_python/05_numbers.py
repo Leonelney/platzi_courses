@@ -1,4 +1,4 @@
-# con los números podemos intepretar diferentes tipos de datos como lo son la edad,
+# con los números podemos interpretar diferentes tipos de datos como lo son la edad,
 # dinero, etc.
 # cuando declaras un número, este no puede ir entre comillas, por que esto crearía un
 # string en vez de un número.
@@ -29,13 +29,13 @@ lives *= 2  # multiplicación
 print(lives)
 lives /= 2  # división
 print(lives)
-lives **= 2  # exponenciación
+lives **= 2  # potenciación
 print(lives)
 lives %= 2  # residuo
 print(lives)
 
 # los flotantes pueden ser muy grandes o contener muchos decimales, lo que hace Python es escribir
-# dichos números en notación cientifica.
+# dichos números en notación científica.
 number = 450000000000000000000000000.1
 print(number)
 number = 0.000000000000000000000000001
