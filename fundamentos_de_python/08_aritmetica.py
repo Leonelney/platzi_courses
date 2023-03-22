@@ -9,6 +9,7 @@ print(10 // 3)  # Cociente
 print(10 ** 2)  # Potenciación
 
 # ejemplo de jerarquía de operadores (PEMDAS)
+# paréntesis, exponente, multiplicación, división, adición, sustracción
 print(2 ** 3 + 3 - 7 / 1 // 4)
 print(8 + 3 - 7 // 4)
 print(8 + 3 - 1)
