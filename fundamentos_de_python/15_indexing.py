@@ -1,22 +1,22 @@
-# los strings tiene indicadores y esots nos permiten acceder a los strings a nivel de posiciones
+# los strings tiene indicadores y estos nos permiten acceder a los strings a nivel de posiciones
 text = "Ella baila sola"
 print("El texto de prueba es:", text)
 print("-"*40)
 
 # acceder a posiciones especificas
 # el conteo de posiciones empieza en el 0
-print("El primer caracter del texto es:", text[0])
-print("El segundo caracter del texto es:", text[1])
+print("El primer carácter del texto es:", text[0])
+print("El segundo carácter del texto es:", text[1])
 
 # si nosotros tratamos de acceder a una posición que no existe nos marcará un error
-# si qeremos imprimir el último caracter de un string podemos utilizar la función len para conocer el tamaño del string
+# si queremos imprimir el último carácter de un string podemos utilizar la función len para conocer el tamaño del string
 size = len(text)
 # recuerda que el conteo empieza en 0 para identificar el posicionamiento de un string por lo que debemos restarle 1 al tamaño para obtener la última posición
-print("El último caracter del texto es:", text[size-1])
-# una forma más sencilla de obtener el mismo resultado es con los indicadores negativos, estos nos permitiran recorrer el string hacia atras.
-print("El último caracter del texto es:", text[-1])
+print("El último carácter del texto es:", text[size-1])
+# una forma más sencilla de obtener el mismo resultado es con los indicadores negativos, estos nos permitirán recorrer el string hacia atrás.
+print("El último carácter del texto es:", text[-1])
 
-# normalmente no solo ocuparemos un caracter de un string, buscaremos extraer una substring y esto se logra con las slicing
+# normalmente no solo ocuparemos un carácter de un string, buscaremos extraer una substring y esto se logra con las slicing
 # la sintaxis es 'inicio':'final':'pasos'
 # los pasos son opcionales y por default se hace el recorrido de 1 por 1
 print("1.", text[:4])

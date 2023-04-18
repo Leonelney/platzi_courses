@@ -7,7 +7,7 @@ print("-" * 40)
 print("Estará la palabra 'animal' dentro del texto?", 'animal' in text)
 print("Estará la palabra 'Simple' dentro del texto?", 'Simple' in text)
 
-# obtener el número de carácteres de un string
+# obtener el número de caracteres de un string
 print(f"El texto tiene un total de {len(text)} caracteres")
 
 # convertir todos los caracteres a mayúsculas
@@ -16,10 +16,10 @@ print("Este es el texto en mayúsculas:", text.upper())
 # convertir todos los caracteres a minúsculas
 print("Este es el texto en minúsculas:", text.lower())
 
-# contar caracteres especificos en un string
+# contar caracteres específicos en un string
 print("Cuantas letras 'a' hay en el texto?:", text.count("a"))
 
-# convertir los caracteres en mínusculas a mayúsculas y viceversa
+# convertir los caracteres en minúsculas a mayúsculas y viceversa
 print("Este es el texto invertido:", text.swapcase())
 
 # preguntar si un string comienza con una subcadena
