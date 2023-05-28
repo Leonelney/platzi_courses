@@ -36,13 +36,16 @@ public class StringUtilTest {
     @Test
     public void TestIsNotEmpty(){
         Assert.assertFalse(StringUtil.isEmpty("hola mundo"));
-    }@Test
+    }
+    @Test
     public void TestIsEmptyLengthZero(){
         Assert.assertTrue(StringUtil.isEmpty(""));
-    }@Test
+    }
+    @Test
     public void TestIsEmptyNull(){
         Assert.assertTrue(StringUtil.isEmpty(null));
-    }@Test
+    }
+    @Test
     public void TestIsEmptySpaces(){
         Assert.assertTrue(StringUtil.isEmpty("    "));
     }
