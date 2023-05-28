@@ -31,4 +31,19 @@ public class StringUtilTest {
     public void TestRepeatNegative() {
         StringUtil.repeat("Hola", -1);
     }
+
+    // función isEmptyTest
+    @Test
+    public void TestIsNotEmpty(){
+        Assert.assertFalse(StringUtil.isEmpty("hola mundo"));
+    }@Test
+    public void TestIsEmptyLengthZero(){
+        Assert.assertTrue(StringUtil.isEmpty(""));
+    }@Test
+    public void TestIsEmptyNull(){
+        Assert.assertTrue(StringUtil.isEmpty(null));
+    }@Test
+    public void TestIsEmptySpaces(){
+        Assert.assertTrue(StringUtil.isEmpty("    "));
+    }
 }
